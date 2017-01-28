@@ -1,0 +1,81 @@
+body{
+	position:relative;
+	top:43px;
+}
+
+.contenedor{
+	max-width:1000px;
+	margin: auto;
+}
+
+.menu{
+	float:right;
+}
+
+.menu li{
+	display:inline-block;
+	padding: 13px 10px;
+}
+
+.menu li a{
+	text-decoration:none;
+	text-transform:uppercase;
+	color:white;
+
+}
+
+nav{
+	background:black;
+	position:fixed;
+	width:100%;
+}
+
+.menu li a:hover{
+	color:orange;
+
+}
+
+header{
+	background-image: url(../imagenes/cielo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 107px;
+    background-position: center;
+    margin-bottom:53px;
+}
+
+header h1{
+	font-size:50px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+header h3{
+	font-size:30px;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+
+.servicios h2{
+	font-size:30px;
+	text-transform:uppercase;
+}
+
+.servicio h3{
+	font-size:24px;
+	color:#333;
+}
+
+.servicio .boton{
+	background:red;
+	color:white;
+	padding:5px 10px;
+	border-radius: 3px;
+	display:inline-block;
+}
+
+.servicio{
+	width:33%;
+	display:inline-block;
+}
+
