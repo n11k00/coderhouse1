@@ -77,5 +77,30 @@ header h3{
 .servicio{
 	width:33%;
 	display:inline-block;
+	padding:20px;
+	box-sizing:border-box;
 }
+
+.servicio h3{
+	text-align:center;
+}
+
+
+
+
+.contenedor h2{
+	text-align:center;
+	margin-bottom:18px;
+}
+
+.seg1{
+	display:inline-block;
+	max-width: 48%;
+}
+.seg2{
+	display:inline-block;
+	max-width: 48%;	
+}
+
+
 

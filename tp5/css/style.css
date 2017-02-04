@@ -1,0 +1,219 @@
+body{
+    background-color:white;
+}
+
+.cabecera{
+       padding: 20px;
+    background: #F5F5F7;
+    box-sizing: border-box;
+    margin-bottom: 19px;
+    padding-bottom: 24px;
+    padding-top: 6px;
+    width: 101%;
+    
+}
+
+.cabecera h3{
+    display: inline-block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2E2D32;
+
+}
+
+.cabecera p{
+    position: relative;
+    top: 9px;
+    right: -12px;
+    font-family: Arvo;
+    font-size: 12.5px;
+}
+
+.cabecera h3 span{
+    color:#6889F9;
+}
+
+.cabecera nav{
+    display: inline-block;
+    float: right;
+    color: black;
+    position: relative;
+    bottom: 7px;
+}
+
+
+
+.links{  
+    text-decoration: none;
+    color: black;}
+
+a:hover{
+   color: #0FACF3 ;
+
+}
+
+.imagen{
+    border-radius:60px;
+}
+
+.contenedor{
+    text-align:center;
+}
+
+.contenedor h2{
+       font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2E2D32;
+    margin-bottom: 11px;
+    /* right: -20px; */
+    /* float: none; */
+    position: relative;
+    right: -4px;
+}
+.contenedor span{
+color: #6889F9;
+}
+
+.texto{
+  display: block;
+    position: relative;
+    width: 255px;
+    /* display: inline-block; */
+    left: 511px;
+    margin-bottom: 20px;
+
+}
+
+.fa{
+    color:black;
+}
+.fa i:hover{
+    color: #3b5998;
+}
+.fa-linkedin-square a:hover{
+    color: #4875B4;
+}
+
+.fa-github a:hover{
+    color: #800080;
+}
+
+.seccionvid h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: #2E2D32;
+    margin-bottom: 11px;
+    /* right: -20px; */
+    /* float: none; */
+    position: relative;
+    right: -4px;
+}
+
+.sectionvid h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #2E2D32;
+    margin-bottom: 8px;
+    /* right: -20px; */
+    /* float: none; */
+    position: relative;
+    right: -4px;
+}
+
+.seccionvid{
+    margin-bottom:27px;
+}
+
+.seccionvid p{
+    display: block;
+    position: relative;
+    /* width: 254px; */
+    /* display: inline-block; */
+    left: 410px;
+    /* margin-bottom: 20px; */
+    width: 469px;
+}
+
+.fin{
+    background: #F5F5F7;
+}
+
+.sectionfoot h3{
+    display: inline-block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2E2D32;
+    margin-left: 8px;
+
+}
+
+.sectionfoot h3 span{
+    color:#6889F9;
+}
+
+.sectionfoot nav{
+    display: inline-block;
+    float: right;
+    color: black;
+    position: relative;
+    bottom: 7px;
+}
+.sectionfoot nav a{
+    text-decoration:none;
+    color:black;
+}
+
+.sectionfoot nav {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 1px;
+    color:black;
+    margin-right:20px;
+}
+.sectionfoot {
+    background: #F5F5F7;
+    width: 100%;
+    display: inline-block;
+    padding: 1px;
+}
+
+.table{
+    margin-bottom:60px;
+}
+
+.p1 {
+       background: #F5F5F7;
+    border-radius: 20px;
+    position: relative;
+    max-width: 415px;
+    left:10px;
+}
+
+
+
+.p2{
+        background: #F5F5F7;
+    border-radius: 20px;
+    position: relative;
+    max-width: 415px;
+    left:19px;
+}
+
+.p3{    
+    background: #F5F5F7;
+    border-radius: 20px;
+    position: relative;
+    max-width: 415px;
+    left:29px;
+
+}
+
+

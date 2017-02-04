@@ -1,0 +1,92 @@
+<!--
+
+<section>: Define una sección en un documento.
+<nav>: Define un bloque que contiene enlaces de navegación, como un menú.
+<article>: Define contenido autónomo que podría existir independientemente del resto del contenido.
+<aside>: Define contenidos vagamente relacionados con el resto del contenido de la página.
+<main>: Define el contenido principal o importante en el documento. Solamente debe existir un elemento <main> en el documento.
+<header>: Define la cabecera de una página o sección.
+<footer>: Define el pie de una página o sección.
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://use.fontawesome.com/0bb7f162a9.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Mi portafolio web</title>
+</head>
+<body>
+<header class="cabecera">
+    <h3>Caplan<span>.</span> </h3>
+    <p>Web Design & Digital Marketing</p>
+<nav>
+<a class="links" href="index.html">Home</a>&nbsp;|&nbsp;<a class="links" href="aboutme.html">Sobre mi</a>&nbsp;|&nbsp;<a class="links" href="#proyectos">Proyectos</a> &nbsp;|&nbsp;
+<a class="fa fa-facebook-square" target="a_blank" href="http://www.facebook.com/nicolas.caplan"> </a>
+<a class="fa fa-github" target="a_blank" href="https://github.com/n11k00" aria-hidden="true"></a>
+<a class="fa fa-linkedin-square" target="a_blank" href="#" aria-hidden="true"></a>
+
+
+</nav>
+</header>
+
+<section>
+    <div class="contenedor">
+<article>
+<img class="imagen" src="nc.jpg" width="10%">
+<h2>Nicolas Caplan<span>.</span></h2>
+<div class="texto"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+</div>
+
+<section class="seccionvid">
+<h3>Conocé quién soy</h3>
+<video width="400" controls>
+  <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+</article>
+<article>
+<h2>Proyectos</h2>
+<table class="table">
+<tr>
+    <td class="p1">
+        <h3>Proyecto 1</h3>
+        <img src="https://images.unsplash.com/photo-1474204075013-fafcfee9bfd7?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=614&q=80&cs=tinysrgb" width="20%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+    </td>
+    <td class="p2">
+        <h3>Proyecto 2</h3>
+        <img src="https://images.unsplash.com/photo-1471074454408-f7db62d99254?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=575&q=80&cs=tinysrgb" width="20%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+    </td>
+    <td class="p3">
+        <h3>Proyecto 3</h3>
+        <img src="https://images.unsplash.com/photo-1470660513416-5494d0eab742?dpr=1&auto=format&crop=entropy&fit=crop&w=767&h=431&q=80&cs=tinysrgb" width="20%">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+    </td>
+</tr>
+ </table>
+
+
+</article>
+</section>
+
+<section class="sectionfoot">
+<footer>
+       <h3>Caplan<span>.</span> </h3>
+<nav> <a href="index.html">Home</a>&nbsp;|&nbsp;<a href="aboutme.html">Sobre mi</a>&nbsp;|&nbsp;<a href="#proyectos">Proyectos</a> &nbsp;|&nbsp; <a class="fa fa-facebook-square" target="a_blank" href="http://www.facebook.com/nicolas.caplan"> </a>
+<a class="fa fa-github" target="a_blank" href="https://github.com/n11k00" aria-hidden="true"></a>
+<a class="fa fa-linkedin-square" target="a_blank" href="#" aria-hidden="true"></a></nav> 
+</footer>
+
+</section>
+</body>
+</html>
